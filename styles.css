@@ -7,6 +7,10 @@ body {
     table-layout: fixed;
   }
 
+  tr{
+    height: 33%;
+  }
+
   table[disabled], table[disabled] td { pointer-events: none }
   
   td {
