@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  table {
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+
+  table[disabled], table[disabled] td { pointer-events: none }
+  
+  td {
+    border: 1px solid black;
+    text-align: center;
+    
+  }
+  
+  td:first-child {
+    border-left-width: 0px;
+  }
+  
+  td:last-child {
+    border-right-width: 0px;
+  }
+  
+  table tr:nth-child(1) td {
+    border-top-width: 0px;
+  }
+  
+  table tr:nth-child(3) td {
+    border-bottom-width: 0px;
+  }
+  
